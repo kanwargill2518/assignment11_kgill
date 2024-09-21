@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react-app:
+    build: .
+    ports:
+      - "7775:3000"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    container_name: lastName_firstName_coding_assignment11
+    stdin_open: true
+    tty: true

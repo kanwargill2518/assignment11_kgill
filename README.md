@@ -1,3 +1,22 @@
+# Docker Development Environment for Create React App
+
+This project sets up a development environment using Docker for a simple Create React App that displays `<h1>Codin 1</h1>`.
+
+## Getting Started
+
+### Prerequisites
+
+- Docker must be installed on your machine. You can download it from [here](https://www.docker.com/products/docker-desktop).
+
+### Setup Instructions
+
+1. Clone this repository or download the files.
+2. Open a terminal and navigate to the project directory.
+3. Build the Docker image:
+   ```bash
+   docker build -t gill_kanwardeep_coding_assignment11 .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
